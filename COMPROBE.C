@@ -2,12 +2,15 @@
  * COMPROBE.C - probe for a com port/UART on an address
  *
  * (c) 2016 Nils Stec <stecdose@gmail.com>
- * license: ---
  * compiler: Turbo C 2.01 for DOS
  *
  * usage: ./COMPROBE <port>
  * if <port> is omitted, default port 0x3f8
  * will be used for probing.
+ *
+ * got that probe-routine from:
+ * http://www.sci.muni.cz/docs/pc/serport.txt
+ * http://www.webcitation.org/5ugQv5JOw
  */
 
 #include <stdio.h>
